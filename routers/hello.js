@@ -1,7 +1,7 @@
 const render = require('../nunjucksEnv')
 const hello = async (ctx, next) => {
     ctx.response.type = 'html';
-    ctx.response.body = render('hello.html', {
+    ctx.response.body = render('hello/hello.html', {
         fruits: ['Apple', 'Pear', 'Banana'],
         count: 12000
     });

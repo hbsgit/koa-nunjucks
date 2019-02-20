@@ -1,7 +1,7 @@
 const render = require('../nunjucksEnv')
 const index = async (ctx, next) => {
     ctx.response.type = 'html';
-    ctx.response.body = render('index.html', {
+    ctx.response.body = render('index/index.html', {
         fruits: ['Apple', 'Pear', 'Banana'],
         count: 12000
     });;

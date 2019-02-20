@@ -32,13 +32,6 @@ const env = createEnv(path.resolve(__dirname, 'pages'), {
     }
 });
 
-const render = (pathname, data) => {
-
-    const s = env.render(pathname, data);
-    console.log(s)
-    return s;
-}
-
-console.log(render)
+const render = (pathname, data) => (env.render(pathname, data));
 
 module.exports = render;
