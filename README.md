@@ -6,3 +6,5 @@ a koa app with nunjucks
 用于python 多页项目的前后端分离。
 
 run with `npm start`
+
+webpack 多页配置参考 https://www.jianshu.com/p/c52df2689d34

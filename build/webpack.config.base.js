@@ -3,6 +3,7 @@ const VueLoaderPlugin = require("vue-loader/lib/plugin")
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const { initConfig,resolve } = require("./bundle")
+//bundel.js配置查看https://www.jianshu.com/p/c52df2689d34
 const { initLoader } = require("./loaders")
 const config = {
   devtool: "cheap-module-source-map",
